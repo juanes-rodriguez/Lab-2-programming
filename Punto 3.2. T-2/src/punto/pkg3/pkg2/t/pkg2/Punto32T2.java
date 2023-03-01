@@ -17,8 +17,10 @@ public class Punto32T2 {
 
         SortMethods sortMethods = new SortMethods();
         char[] wordChar = sortMethods.string2Char(palabra);
+        sortMethods.printArrayInvert(wordChar);
         char moda = sortMethods.moda(wordChar);
         sortMethods.replaceVocals(moda, wordChar);
+        
     }
     
 }

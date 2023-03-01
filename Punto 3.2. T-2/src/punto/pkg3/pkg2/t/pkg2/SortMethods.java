@@ -24,6 +24,15 @@ class SortMethods {
             System.out.println();
         }
     }
+    void printArrayInvert(char array[])
+    {
+        int lenght = array.length;
+        System.out.println("La palabra invertida es: ");
+        for (int i = lenght-1; i >= 0; i--) {
+            System.out.print("\n\t " + array[i]);
+            System.out.println();
+        }
+    }
 
     char[] string2Char (String word){
 
